@@ -31,4 +31,6 @@ jobs:
         with:
           python-version: '3.10'
           cache: 'pip'
-      - run: make REPO_PYPI_TEST_TOKEN="${REPO_PYPI_TEST_TOKEN}" deploy-test
+      - run: make deploy-test
+        env:
+          REPO_PYPI_TEST_TOKEN: ${{ secrets.REPO_PYPI_TEST_TOKEN }}

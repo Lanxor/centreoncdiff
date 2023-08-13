@@ -1,0 +1,2 @@
+ACLGROUP;ADD;groupName;groupAlias
+ACLGROUP;SETPARAM;actionName;activate;0;

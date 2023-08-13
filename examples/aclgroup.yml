@@ -1,0 +1,12 @@
+---
+
+- name: All_Access
+  object: aclgroup
+  alias: All access
+  activate: true
+  contactgroup:
+    - Guest
+  action:
+    - ALL_ACTIONS
+  resource:
+    - All Resources

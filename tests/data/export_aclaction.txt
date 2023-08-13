@@ -1,0 +1,4 @@
+ACLACTION;ADD;actionName;actionDescription;
+ACLACTION;SETPARAM;actionName;activate;0;
+ACLACTION;GRANT;actionName;firstAction|secondAction
+ACLACTION;REVOKE;actionName;thirdAction|fourthAction

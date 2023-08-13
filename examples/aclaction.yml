@@ -1,0 +1,53 @@
+---
+
+- name: All_Actions
+  object: aclaction
+  description: All actions
+  activate: true
+  grant:
+    - poller_listing
+    - poller_stats
+    - top_counter
+    - service_checks
+    - service_notifications
+    - service_acknowledgement
+    - service_disacknowledgement
+    - service_schedule_check
+    - service_schedule_forced_check
+    - service_schedule_downtime
+    - service_comment
+    - service_event_handler
+    - service_flap_detection
+    - service_passive_checks
+    - service_submit_result
+    - service_display_command
+    - host_checks
+    - host_notifications
+    - host_acknowledgement
+    - host_disacknowledgement
+    - host_schedule_check
+    - host_schedule_forced_check
+    - host_schedule_downtime
+    - host_comment
+    - host_event_handler
+    - host_flap_detection
+    - host_checks_for_services
+    - host_notifications_for_services
+    - host_submit_result
+    - global_shutdown
+    - global_restart
+    - global_notifications
+    - global_service_checks
+    - global_service_passive_checks
+    - global_host_checks
+    - global_host_passive_checks
+    - global_event_handler
+    - global_flap_detection
+    - global_service_obsess
+    - global_host_obsess
+    - global_perf_data
+    - create_edit_poller_cfg
+    - delete_poller_cfg
+    - generate_cfg
+    - generate_trap
+      

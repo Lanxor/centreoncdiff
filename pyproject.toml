@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "centreoncdiff"
+version = "0.2.4"
+description = "Centreon configuration difference tool. "
+authors = [
+  { name="Lanxor", email="lanxor@lof.ovh" },
+]
+maintainers = [
+  { name="Lanxor", email="lanxor@lof.ovh" },
+]
+readme = "Readme.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.9"
+keywords = [ "centreon", "generator", "configuration" ]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: System Administrators",
+  "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Lanxor/centreoncdiff"
+"Bug Tracker" = "https://github.com/Lanxor/centreoncdiff/issues"
